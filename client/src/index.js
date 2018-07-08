@@ -13,8 +13,5 @@ import axios from 'axios';
 window.axios = axios;
 
 const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
-console.log(reducers)
-console.log(process.env)
 
 ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'))
-// 

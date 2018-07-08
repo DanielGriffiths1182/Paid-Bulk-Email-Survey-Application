@@ -5,10 +5,10 @@ import * as actions from '../actions';
 
 import Header from './Header';
 import Footer from './Footer';
+import Landing from './Landing';
 
 const Dashboard = () => <p>This is the dash</p>;
 const SurveyNew = () => <p>This is the SurveyNew</p>;
-const Landing = () => <p>This is the landing</p>;
 
 class App extends Component {
   componentDidMount() {
